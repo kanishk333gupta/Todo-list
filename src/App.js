@@ -51,7 +51,7 @@ return(
      <Header onAdd = {() => setShowAddTask (!showAddTask)} showAdd = {showAddTask}/>
      {showAddTask && <AddTask onAdd = {addtasks}/>}
      {tasks.length > 0 ? <Tasks tasks={tasks} onDelete = {deleteTask} onToggle = {Togglereminder}/>  : 'No tasks assigned'} 
-    </div>
+     </div>
   )
 }
 
